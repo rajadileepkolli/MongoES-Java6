@@ -120,11 +120,11 @@
 
         <!-- Compile -->
         <!-- For Servlet 2.5 containers need to add web.xml along with it -->
-       <!--  <dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-legacy</artifactId>
             <version>1.0.1.RELEASE</version>
-        </dependency> -->
+        </dependency>
 
         <!-- ******************InProduction********************* -->
         <dependency>
@@ -200,6 +200,19 @@
                     </execution>
                 </executions>
             </plugin>
+            <!-- <plugin>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-javadoc</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <inherited>false</inherited>
+                    </execution>
+                </executions>
+            </plugin> -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
