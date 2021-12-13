@@ -15,7 +15,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.1.12.RELEASE</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <properties>
@@ -123,7 +123,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-legacy</artifactId>
-            <version>1.0.1.RELEASE</version>
+            <version>1.1.0.RELEASE</version>
         </dependency>
 
         <!-- ******************InProduction********************* -->
