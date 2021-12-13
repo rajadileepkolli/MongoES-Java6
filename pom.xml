@@ -29,7 +29,7 @@
                 <groupId>org.springframework.data</groupId>
                 <artifactId>spring-data-releasetrain</artifactId>
                 <!-- <version>Gosling-RELEASE</version> <version>Dijkstra-SR6</version> -->
-                <version>Evans-RELEASE</version>
+                <version>1.4.6.RELEASE</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
