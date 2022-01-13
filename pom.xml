@@ -115,7 +115,7 @@
         <dependency>
             <groupId>io.searchbox</groupId>
             <artifactId>jest</artifactId>
-            <version>0.1.7</version>
+            <version>1.0.0</version>
         </dependency>
 
         <!-- Compile -->
